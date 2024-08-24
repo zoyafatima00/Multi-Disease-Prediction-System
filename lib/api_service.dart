@@ -8,7 +8,7 @@ class ApiService {
   ApiService({required this.baseUrl});
 
   Future<Map<String, dynamic>> predict(Map<String, dynamic> inputData) async {
-    final url = Uri.parse('$baseUrl/predict');
+    final url = Uri.parse('$baseUrl/predict_chronic_kidney');
     final response = await http.post(
       url,
       headers: <String, String>{

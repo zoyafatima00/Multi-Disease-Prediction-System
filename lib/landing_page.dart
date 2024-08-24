@@ -1,7 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:kidney_chronic_disease/chronic_kidney_disease.dart';
-import 'package:kidney_chronic_disease/second_page.dart';
+import 'package:kidney_chronic_disease/parkinson_disease.dart';
 
 import 'colors.dart';
 
@@ -158,7 +158,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => ParkinsonPrediction()));
+                                  builder: (context) =>
+                                      ParkinsonPredictionPage()));
                         },
                         child: Container(
                           decoration: BoxDecoration(
